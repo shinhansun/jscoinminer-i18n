@@ -1,8 +1,9 @@
 <?php
 if (!defined("IN_JCM")) die();
 
-$lang = [
-    'html_lang' => 'kor',
+$lang = array_merge($lang, [
+    'html_lang' => 'ko',
+    'html_dir' => 'ltr', //left to right
     'title' => '자바스크립트 기반, 웹 채굴 브라우저 (베타)',
     'desc' => '자바스크립트를 기반한 BBSCoin 웹 채굴 브라우저',
     'keywords' => 'mining,miner,monero,bbscoin,cryptocurrency,coin',
@@ -23,8 +24,8 @@ $lang = [
     'start' => '채굴 및 스크립트 실행',
     'stop' => '채굴 중지',
     'embedded_script' => '사이트 탑재 스크립트',
-    'copy_code' => '여러분의 사이트에 아래 코드를 복사해 BBS를 채굴해 보세요. 다만, 법적 문제가 되지 않기 위해서 사이트 가입자에게 미리 공지할 것을 권고합니다.'
+    'copy_code' => '여러분의 사이트에 아래 코드를 복사해 BBS를 채굴해 보세요. 다만, 법적 문제가 되지 않기 위해서 사이트 가입자에게 미리 공지할 것을 권고합니다.',
     'misc' => '기타',
     'invite' => '초대 링크',
     'inviteinfo' => '링크를 복사해서 주변분들을 초대하세요! BBS를 채굴해 보세요!',
-];
+]);

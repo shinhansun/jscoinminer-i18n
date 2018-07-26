@@ -1,8 +1,9 @@
 <?php
 if (!defined("IN_JCM")) die();
 
-$lang = [
+$lang = array_merge($lang, [
     'html_lang' => 'zh',
+    'html_dir' => 'ltr', //left to right
     'title' => '基于 Javascript 的浏览器挖矿 (测试版)',
     'desc' => '基于 Javascript 的 BBSCoin 浏览器挖矿',
     'keywords' => '挖矿,门罗币,bbscoin,数字货币,加密货币,浏览器挖矿',
@@ -27,4 +28,4 @@ $lang = [
     'misc' => '杂项',
     'invite' => '邀请',
     'inviteinfo' => '复制邀请链接分享给别人！可以赚取BBS！',
-];
+]);

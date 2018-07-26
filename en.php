@@ -1,8 +1,9 @@
 <?php
 if (!defined("IN_JCM")) die();
 
-$lang = [
+$lang = array_merge($lang, [
     'html_lang' => 'en',
+    'html_dir' => 'ltr', //left to right
     'title' => 'Javascript Based, Browser Web Mining (beta)',
     'desc' => 'Javascript Based Browser Web Mining for BBSCoin',
     'keywords' => 'mining,miner,monero,bbscoin,cryptocurrency,coin',
@@ -27,4 +28,4 @@ $lang = [
     'misc' => 'Misc',
     'invite' => 'Invite',
     'inviteinfo' => 'Copy Invite Link to Invite Others! Earn BBS!',
-];
+]);

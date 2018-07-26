@@ -1,8 +1,9 @@
 <?php
 if (!defined("IN_JCM")) die();
 
-$lang = [
-    'html_lang' => 'pt_BR',
+$lang = array_merge($lang, [
+    'html_lang' => 'pt-br',
+    'html_dir' => 'ltr', //left to right
     'title' => 'Minerador WEB, Baseado em Javascript. Versão: (Beta)',
     'desc' => 'Minere Online BBSCoin através do seu navegador WEB',
     'keywords' => 'mineracao,minerar,monero,bbscoin,cryptocurrency,coin',
@@ -27,4 +28,4 @@ $lang = [
     'misc' => 'Misc',
     'invite' => 'Convidar',
     'inviteinfo' => 'Copie o Link e Convide Outras Pessoas! Ganhe BBS!',
-];
+]);

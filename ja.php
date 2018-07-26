@@ -1,8 +1,9 @@
 <?php
 if (!defined("IN_JCM")) die();
 
-$lang = [
+$lang = array_merge($lang, [
     'html_lang' => 'ja',
+    'html_dir' => 'ltr', //left to right
     'title' => 'Javascriptに基づいて、ブラウザマイニング (beta)',
     'desc' => 'Javascriptに基づいて、BBSCoinの為にのブラウザマイニング',
     'keywords' => 'マイニング,採鉱,モネロ,bbscoin,暗号通貨,通貨',
@@ -27,4 +28,4 @@ $lang = [
     'misc' => 'その他',
     'invite' => '招待',
     'inviteinfo' => '招待リンクをコピーして、そして友達を招待する! BBSを儲ける!',
-];
+]);
