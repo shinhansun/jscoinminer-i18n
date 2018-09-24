@@ -3,7 +3,7 @@ if (!defined("IN_JCM")) die();
 
 $lang = array_merge($lang, [
     'html_lang' => 'ar',
-    'html_dir' => 'ltr', //left to right
+    'html_dir' => 'rlt', //left to right
     'title' => '(نسخة تجريبية) I أساس جافا سكريبت ، التعدين على الويب في المتصفح',
     'desc' => 'BBSCoin استنادا إلى التعدين ويب المستعرض ل Javascript',
     'keywords' => 'عملة , monero ، bbscoin ، cryptocurrency التعدين ، عامل منجم ،',
